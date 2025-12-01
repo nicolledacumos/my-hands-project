@@ -1,3 +1,7 @@
+// For this project I really wanted to circle back to an idea I had when I first joined this course. I saw a video back in 2024 of this girl using code to control vocal harmony, and I wondered how I would be able to do that. After our class using the webcam, I realized it could be possible. I used MediaHands in order to have my hand gestures detected and Ableton Live (free trial because I can't afford the actual thing yet!) for the vocal recordings. So far, I've been able to have the code work when I am not recording anything in Ableton, so I need to set up a separate camera to use p5js in so I can actually record live vocals. 
+// This has been a fun experience, and I'm glad I got the opportunity to try this out! 
+// I used ChatGPT to help with understanding how to use Ableton (because the last time I used it was 5 years ago), and with adjusting the hand gestures. Once I was finally able to set Ableton up, the code was straightforward!
+
 let video;
 let hands;
 let latestLandmarks = null;
